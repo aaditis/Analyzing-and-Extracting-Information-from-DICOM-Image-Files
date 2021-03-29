@@ -4,4 +4,4 @@ DICOM – Digital Imaging and Communications in Medicine is a format which conta
 
 The database schema was updated with a new field 'ExpNumInstances' to store the database the DICOM tag value. The value from the DICOM tags was extracted for specific groups and elements and added to the newly created field in the database.
 
-It's value  was compared with the existing value calculated mathematically and further processing was performed depending on a match or no-match. A functionality to convert into unisigned short was also added.
+It's value  was compared with the existing value calculated mathematically and further processing was performed depending on a match or no-match. A functionality to convert into unisigned short to int was also added.
